@@ -615,3 +615,61 @@ color: #555;
     display: inline;
   }
 }
+
+
+.price-section {
+  padding: 40px 20px;
+  background: #fff7f7;
+  text-align: center;
+}
+
+.price-note {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.price-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.price-card {
+  background: #fff;
+  border: 2px solid #f3cccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.price-title {
+  font-size: 1.3em;
+  color: #d45b5b;
+  margin-bottom: 10px;
+}
+
+.price-amount {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.price-features {
+  padding-left: 10px;
+  line-height: 1.6;
+}
+
+.price-extra {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.small-text {
+  font-size: 0.8em;
+  color: #777;
+}
